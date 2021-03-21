@@ -1,0 +1,186 @@
+.cartList{
+    background:#f4f5f7;
+    width:100%;
+    top:.99rem;
+    .cartListItem{
+        width:100%;
+        background:#fff;
+        margin-bottom:.04rem;
+
+        // 购物车列表
+        .shopList{
+            width:100%;
+            // height:1.11rem;
+            padding:0 .09rem;
+            background:#fff;
+            li{
+                width:100%;
+                height:1.11rem;
+                border-bottom: 1px solid #e6e6e6;
+                background: #fff;
+                // 选中按钮
+                .checkbtn{
+                    width:.17rem;
+                    height:1.11rem;
+                    float:left;
+                }
+
+                // 选中时候的类名
+                .UnChecked{
+                    // background:url("../../../image/cart-img/unselect.png") no-repeat;
+                    background-size:100% .25rem;
+                }
+
+                // 点击图片跳转
+                .shopImg{
+                    width:1.1rem;
+                    height:1.1rem;
+                    margin:0 .1rem;
+                    float:left;
+                    .shopImgShow{
+                        width:1.1rem;
+                        height:1.1rem;
+                        img{
+                            width:100%;
+                        }
+                    }
+                }
+                // 购物车商品详情
+                .shopInfo{
+                    width:2.08rem;
+                    height:1.1rem;
+                    padding:.1rem 0;
+                    float:left;
+                    .shopTitle{
+                        width:100%;
+                        overflow: hidden;
+                        white-space: nowrap;
+                        text-overflow: ellipsis;
+                        height:.3rem;
+                        font-size:.14rem;
+                    }
+                    .shopCoupen{
+                        width:2.08rem;
+                        height:.12rem;
+                        margin:.1rem 0;
+                    }
+                    .shopPrice{
+                        width:2.08rem;
+                        height:.25rem;
+                        //价格
+                        .price{
+                            width:1.08rem;
+                            height:.21rem;
+                            float:left;
+                            span{
+                                font-size:.15rem;
+                                color:#f96d16;
+                            }
+                            i{
+                                font-size:.13rem;
+                                color:#999;
+                                text-decoration: line-through;
+                                font-style:normal;
+                            }
+                        }
+
+                        // 按钮
+                        .shopSelect{
+                            float:right;
+                            width:.775rem;
+                            height:.25rem;
+
+                            .minus{
+                                float:left;
+                                width:.225rem;
+                                height:.25rem;
+                                border:0;
+                            }
+                            input{
+                                float:left;
+                                width:.325rem;
+                                height:.25rem;
+                                text-align: center;
+                                border:0;
+                            }
+                            .add{
+                                float:left;
+                                width:.225rem;
+                                height:.25rem;
+                                border:0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    
+    // 合算
+div.sum{
+    width:100%;
+    height:.5rem;
+    background:#fff;
+    padding-left:.1rem;
+    position:fixed;
+    bottom:.5rem;
+    left:0;
+
+    input{
+        height:100%;
+        float:left;
+    }
+    .checkPrice{
+        float:left;
+        width:1.48rem;
+        height:.41rem;
+        line-height: .41rem;
+        padding:.08rem 0;
+        margin-left:.1rem;
+        /* // 合计 */
+        .totalPrice{
+            float: left;
+            width:.869rem;
+            height:.36rem;
+            line-height:.36rem;
+            font-size:.16rem;
+            color:#f96d16;
+            .allsum{
+                font-size:.13rem;
+                color:#333;
+            }
+        }
+
+        /* // 不含运费 */
+        .fee{
+            float:left;
+            width:.61rem;
+            font-size:.13rem;
+            color:#999;
+        }
+    }
+    
+/*  // 结算按钮 */
+    .btnCheck{
+        width:1.15rem;
+        height:.49rem;
+        background:rgb(249, 109, 22);
+        float:right;
+        line-height: .49rem;
+        font-size:.18rem;
+        color:#fff;
+        text-align: center;
+    }
+    .btnNoCheck{
+        width:1.15rem;
+        height:.49rem;
+        background:rgb(153, 153, 153);
+        float:right;
+        line-height: .49rem;
+        font-size:.18rem;
+        color:#fff;
+        text-align: center;
+    }
+}
+}

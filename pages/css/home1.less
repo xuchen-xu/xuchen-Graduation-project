@@ -1,0 +1,274 @@
+.eheader {
+  width: 100%;
+  height: 36px;
+  background: slategray;
+  border-bottom: solid 1px #ddd;
+  .ehcenter {
+    position: relative;
+    width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+    // background-color: red;
+    .sloganBox {
+      position: absolute;
+      top: 0;
+      left: 0;
+      padding-left: 6px;
+      height: 36px;
+      line-height: 36px;
+      font-size: 12px;
+      color: #fff;
+      .text {
+        margin-right: 4px;
+      }
+    }
+    .userinfoBox {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 36px;
+      // background-color: yellow;
+      font-size: 0;
+      line-height: 36px;
+      .itemInfo {
+        float: left;
+        position: relative;
+        height: 36px;
+        .infoNormal {
+          padding: 0 15px;
+          .infoText {
+            font-size: 12px;
+            color: #fff;
+            cursor: default;
+          }
+        }
+        .infoLink {
+          display: block;
+          padding: 0 8px;
+          // line-height: 36px;
+          .infoText {
+            display: inline-block;
+            vertical-align: middle;
+            // margin-top: 2px;
+            // height: 14px;
+            // line-height: 36px;
+            font-size: 12px;
+            color: #fff;
+            cursor: pointer;
+          }
+        }
+        .infoNormal2 {
+          display: block;
+          // height: 36px;
+          padding: 0 8px;
+          line-height: 36px;
+        }
+        .infoNormal3 {
+          display: block;
+          // height: 36px;
+          padding: 0 15px;
+          line-height: 36px;
+        }
+        .lineTest {
+          right: 1px;
+          color: white;
+          position: absolute;
+          top: 0;
+          width: 1px;
+          height: 36px;
+          line-height: 36px;
+          font-size: 12px;
+        }
+      }
+    }
+  }
+  .tubiao {
+    margin-right: 3px;
+  }
+}
+// -------------------------------------------------------------------------------//
+
+.headersearchBox {
+  background-color: #f2f1ea;
+  .headerSearch {
+    position: relative;
+    width: 1000px;
+    height: 86px;
+    margin: 0 auto;
+    padding-top: 31px;
+    // background-color: yellow;
+    .logoText {
+      height: 100px;
+      // line-height: 95px;
+      line-height: 85px;
+      position: absolute;
+      left: 0;
+      top: 0;
+      float: left;
+      display: block;
+      width: 232px;
+      padding-left: 0;
+      overflow: hidden;
+      font-size: 40px;
+      color: black;
+    }
+    .searchBox {
+      height: 40px;
+      float: right;
+      width: 688px;
+      // width: 680px;
+      // width:auto;
+      margin-right: 0;
+      .searchCon {
+        height: 40px;
+        position: relative;
+        float: left;
+        right: -63px;
+        width: 588px;
+        border: 2px solid #8c222c;
+        .searchType {
+          position: absolute;
+          top: -26px;
+          left: -2px;
+          width: 120px;
+          height: 24px;
+          font-size: 12px;
+          color: #333;
+          .itemType {
+            color: #8c222c;
+            float: left;
+            height: 24px;
+            line-height: 24px;
+            margin-right: 10px;
+            cursor: pointer;
+          }
+          .indicator {
+            left: 8px;
+            position: absolute;
+            bottom: 0;
+            width: 0;
+            height: 0;
+            border: 5px solid transparent;
+            border-bottom: 5px solid #8c222c;
+            transition: left 0.5s;
+          }
+        }
+        .searchinputBox {
+          height: 36px;
+          position: relative;
+          float: left;
+          width: 496px;
+          background-color: #fff;
+          .searchstatusBox {
+            line-height: 36px;
+            position: absolute;
+            top: 0;
+            right: 0;
+            z-index: 501;
+            width: 74px;
+            font-size: 12px;
+            cursor: pointer;
+            .curStatus {
+              text-align: center;
+              border-left: 0.3px solid gray;
+              border-right: 1px solid transparent;
+              background-color: #f5f5f5;
+              // font-size: 12px;
+            }
+            .icontabDown {
+              // position: relative;
+              position: absolute;
+              // top: 9px;
+              // left: 4px;
+              top: 15px;
+              left: 52px;
+              border-left: 4px solid transparent;
+              border-right: 4px solid transparent;
+              border-top: 5px solid #999;
+            }
+            .icontabUp {
+            }
+          }
+          .inputLabel {
+            height: 36px;
+            width: 496px;
+            // padding: 10px 84px 10px 10px;
+            // line-height: 18px;
+            line-height: 20px;
+            font-size: 14px;
+            color: #333;
+            border: none;
+          }
+          .searchLabel {
+            position: absolute;
+            top: 5px;
+            left: 10px;
+            // line-height: 18px;
+            line-height: 25px;
+            font-size: 12px;
+            color: #999;
+            cursor: text;
+          }
+        }
+        .btn {
+          height: 36px;
+          // height: 40px;
+          overflow: hidden;
+          line-height: 36px;
+          background-color: #7b111b;
+          float: left;
+          border: 0;
+          // padding-left: 2px;
+          font-size: 16px;
+          color: #fff;
+          border-radius: 0;
+          text-align: center;
+          cursor: pointer;
+          // width: 88px;
+          width: 92px;
+          position: absolute;
+          right: 0;
+        }
+      }
+      .searchLink {
+        height: 40px;
+        padding-top: 4px;
+        // float: left;
+        position: absolute;
+        right: 0;
+        width: 35px;
+        line-height: 16px;
+        // font-size: 12px;
+        // color: #666;
+        text-align: right;
+        .advsearchBtn {
+          color: #666;
+          font-size: 14px;
+        }
+        a:hover {
+          color: #8c222c;
+        }
+      }
+    }
+  }
+}
+// ------------------------------------------------------------------------- //
+.head {
+  height: 58px;
+  // background-color: yellow;
+  .nav_box {
+    width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+    // background-color: red;
+    li {
+      float: left;
+      margin-right: 32px;
+      padding: 0 15px;
+      font-size: 16px;
+      height: 58px;
+      line-height: 58px;
+      list-style: none;
+    }
+  }
+}

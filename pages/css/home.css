@@ -1,0 +1,307 @@
+body {
+  background-color: hsl(213, 65%, 97%);
+  /* font-family: 华文楷体; */
+  font-family: "宋体";
+  color: black;
+}
+.container {
+  margin: auto;
+  width: 1000px;
+  font-family: 华文楷体;
+}
+.clear:after {
+  clear: both;
+  display: block;
+  content: "";
+}
+/*.nov-fir{*/
+/*margin-left: -140px;*/
+/*width: 1300px;*/
+/*height: 25px;*/
+/*background-color: slategray;*/
+/*cursor: pointer;*/
+/*}*/
+/* .menuxiala{
+  text-align: center;
+} */
+/* ----------------------------------------------------- */
+.content {
+  width: 1000px;
+  margin: 0 auto;
+}
+.friend_link_box {
+  margin-top: 45px;
+  margin-bottom: 20px !important;
+  border: 1px solid rgb(216, 216, 216);
+  overflow: hidden;
+}
+
+.friend_link_box .friend_link_tit a {
+  display: block;
+  float: left;
+  padding: 0 10px;
+  font-size: 14px;
+  /* border: 1px solid #e5e5e5; */
+  border-bottom-color: rgb(255, 255, 255);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  line-height: 32px;
+  height: 35px;
+  position: relative;
+  bottom: -1px;
+  left: -1px;
+  border-bottom: 1px solid #e5e5e5;
+  color: #999;
+}
+
+.friend_link_box .friend_link_tit a:hover {
+  cursor: pointer;
+  color: blue;
+}
+
+.friend_link_box .friend_link_tit {
+  border-bottom: 1px solid #e5e5e5;
+  line-height: 35px;
+  position: relative;
+  top: -2px;
+}
+.friend_link_box .friend_link_list a {
+  display: block;
+  white-space: nowrap;
+  float: left;
+  margin-right: 20px;
+  font-size: 12px;
+  color: #999;
+  line-height: 20px;
+}
+.friend_link_box .friend_link_list a:hover {
+  cursor: pointer;
+  color: blue;
+}
+a.now {
+  border: 1px solid #e5e5e5;
+  border-bottom-color: rgb(229, 229, 229);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom: 1px solid #fff;
+  background: #fff;
+  line-height: 32px;
+  height: 35px;
+}
+.m_t10 {
+  margin-top: 10px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* ----------------------------------------------------- */
+
+.nov-fir > div {
+  float: right;
+  margin-right: 50px;
+  font-size: 20px;
+  color: darkgrey;
+  text-align: center;
+}
+.dbg {
+  width: 1024px;
+  height: 80px;
+  /* margin-top: -20px; */
+  /*background-color: #F6F6F1;*/
+}
+/*豆瓣读书*/
+.nov-primary {
+  float: left;
+  /* margin-top: 20px; */
+  margin-top: 0px;
+  font-weight: bolder;
+  font-size: 40px;
+}
+.nov-sec > div {
+  float: left;
+  width: 100px;
+  height: 30px;
+  margin-left: 30px;
+  margin-top: 10px;
+  font-size: 25px;
+  text-align: center;
+}
+.nov-sec > div > a {
+  text-decoration: none;
+}
+.nov-sec > div:hover {
+  float: left;
+  box-shadow: 0px 0px 15px #a7c1ee;
+  cursor: pointer;
+  border-radius: 80px;
+}
+.nov-thi {
+  /*width: 1300px;*/
+  float: left;
+  margin-top: 30px;
+}
+.nov-for > div:first-child {
+  float: left;
+  font-size: 25px;
+  margin-top: 30px;
+  text-align: center;
+}
+.nov-for > div:last-child {
+  float: left;
+  font-size: 16px;
+  margin-top: 36px;
+  margin-left: 20px;
+  text-align: center;
+}
+.nov-for > div:last-child:hover {
+  cursor: pointer;
+  color: blue;
+}
+.code {
+  height: 30px;
+  background-color: slategray;
+}
+.code > input {
+  margin-left: 1350px;
+  height: 30px;
+  background-color: slategray;
+  border: none;
+  cursor: pointer;
+  color: darkgrey;
+}
+/*.code>input:hover{*/
+/*color: white;*/
+/*}*/
+.nov-fif {
+  position: relative;
+  top: 10px;
+  width: 1100px;
+  height: 350px;
+  /*margin-top: -10px;*/
+  margin-left: -30px;
+}
+.nov-fif > div {
+  float: left;
+  width: 115px;
+  height: 172px;
+  margin-left: 30px;
+  margin-bottom: 80px;
+  background-size: cover;
+  cursor: pointer;
+  text-align: center;
+}
+.nov-fif > div:hover {
+  color: blue;
+}
+.nov-cal {
+  float: left;
+  width: 1024px;
+  margin-top: 50px;
+  /*margin-left: 130px;*/
+}
+.book-news {
+  float: left;
+  font-size: 25px;
+  margin-top: 30px;
+}
+/*图书资讯内容层*/
+.book-news-content {
+  float: left;
+  width: 1024px;
+  height: 200px;
+  border: 1px solid;
+  margin-top: 20px;
+  cursor: pointer;
+  border: 1px #d8d8d8 solid;
+}
+/*最受关注图书榜*/
+.like {
+  margin-top: 30px;
+  float: left;
+  font-size: 25px;
+}
+.like1 > div {
+  float: left;
+  margin-top: 36px;
+  margin-left: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.like1 > div:hover {
+  color: darkblue;
+}
+.like-content {
+  float: left;
+  width: 1024px;
+  /*height: 200px;*/
+  margin-left: 70px;
+  margin-top: 20px;
+  cursor: pointer;
+  /*border: 1px #D8D8D8 solid;*/
+}
+.like-content > div {
+  margin-bottom: 40px;
+  margin-right: 400px;
+  background-size: cover;
+  float: left;
+  width: 85px;
+  height: 120px;
+}
+
+.bluetext {
+  width: 900px;
+  height: 50px;
+  color: #3377aa;
+  font-size: 24px;
+  line-height: 50px;
+}
+
+.graytext {
+  width: 100px;
+  height: 30px;
+  font-size: 18px;
+  line-height: 30px;
+  color: grey;
+}
+
+.blacktext {
+  width: 900px;
+  height: 100px;
+  font-size: 18px;
+  margin-top: 5px;
+}
+.bk {
+  margin-top: -115px;
+  margin-left: 100px;
+  float: left;
+  width: 300px;
+  height: 120px;
+  /*border: 1px #D8D8D8 solid;*/
+}
+.bk > div {
+  margin-top: -10px;
+}
+.bk > div:first-child {
+  font-size: 20px;
+}
+.bk > div:first-child:hover {
+  color: blue;
+}
+.dbgrade > div {
+  margin-bottom: 10px;
+}
+footer {
+  font-size: 18px;
+  font-family: 华文楷体;
+  color: #bab8c5;
+  text-align: center;
+}
+
+/* .pic{
+  overflow: hidden;
+} */
+

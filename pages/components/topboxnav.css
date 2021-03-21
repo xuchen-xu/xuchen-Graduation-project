@@ -1,0 +1,63 @@
+#db-global-nav {
+    height: 28px;
+    color: #d5d5d5;
+    background-color: #545652;
+    border-bottom: solid 1px #ddd;
+    min-width: 950px;
+    /* font: 12px Helvetica, Arial, sans-serif; */
+    line-height: 1.62;
+    font-size: 12px;
+  }
+  #db-global-nav .top-nav-info {
+    float: right;
+    margin: 0 12px 0 0;
+    line-height: 28px;
+  }
+  #db-global-nav a {
+    color: #d5d5d5;
+  }
+  .top-nav-info a {
+    display: inline-block;
+    /* *display: inline; */
+    zoom: 1;
+    margin: 0;
+    padding: 0 12px;
+    height: 28px;
+    color: #d5d5d5;
+    cursor: pointer;
+  }
+  
+  #db-global-nav .top-nav-doubanapp {
+    position: relative;
+    float: right;
+    margin-right: 5px;
+    line-height: 28px;
+  }
+  
+  .top-nav-doubanapp .lnk-doubanapp {
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    padding: 0 8px;
+    height: 28px;
+  }
+  #db-global-nav .global-nav-items {
+    font-size: 0;
+  }
+  
+  #db-global-nav ul {
+    margin: 0;
+    padding: 0;
+  }
+  #db-global-nav .global-nav-items li {
+    display: inline-block;
+    zoom: 1;
+    line-height: 28px;
+    font-size: 12px;
+    vertical-align: baseline;
+  }
+  #db-global-nav .global-nav-items a {
+    display: inline-block;
+    padding: 0 12px;
+    height: 28px;
+  }

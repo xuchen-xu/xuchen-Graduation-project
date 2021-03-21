@@ -1,0 +1,166 @@
+.cartList {
+  background: #f4f5f7;
+  width: 100%;
+  top: 0.99rem;
+}
+.cartList .cartListItem {
+  width: 100%;
+  background: #fff;
+  margin-bottom: 0.04rem;
+}
+.cartList .cartListItem .shopList {
+  width: 100%;
+  padding: 0 0.09rem;
+  background: #fff;
+}
+.cartList .cartListItem .shopList li {
+  width: 100%;
+  height: 1.11rem;
+  border-bottom: 1px solid #e6e6e6;
+  background: #fff;
+}
+.cartList .cartListItem .shopList li .checkbtn {
+  width: 0.17rem;
+  height: 1.11rem;
+  float: left;
+}
+.cartList .cartListItem .shopList li .UnChecked {
+  background-size: 100% 0.25rem;
+}
+.cartList .cartListItem .shopList li .shopImg {
+  width: 1.1rem;
+  height: 1.1rem;
+  margin: 0 0.1rem;
+  float: left;
+}
+.cartList .cartListItem .shopList li .shopImg .shopImgShow {
+  width: 1.1rem;
+  height: 1.1rem;
+}
+.cartList .cartListItem .shopList li .shopImg .shopImgShow img {
+  width: 100%;
+}
+.cartList .cartListItem .shopList li .shopInfo {
+  width: 2.08rem;
+  height: 1.1rem;
+  padding: 0.1rem 0;
+  float: left;
+}
+.cartList .cartListItem .shopList li .shopInfo .shopTitle {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  height: 0.3rem;
+  font-size: 0.14rem;
+}
+.cartList .cartListItem .shopList li .shopInfo .shopCoupen {
+  width: 2.08rem;
+  height: 0.12rem;
+  margin: 0.1rem 0;
+}
+.cartList .cartListItem .shopList li .shopInfo .shopPrice {
+  width: 2.08rem;
+  height: 0.25rem;
+}
+.cartList .cartListItem .shopList li .shopInfo .shopPrice .price {
+  width: 1.08rem;
+  height: 0.21rem;
+  float: left;
+}
+.cartList .cartListItem .shopList li .shopInfo .shopPrice .price span {
+  font-size: 0.15rem;
+  color: #f96d16;
+}
+.cartList .cartListItem .shopList li .shopInfo .shopPrice .price i {
+  font-size: 0.13rem;
+  color: #999;
+  text-decoration: line-through;
+  font-style: normal;
+}
+.cartList .cartListItem .shopList li .shopInfo .shopPrice .shopSelect {
+  float: right;
+  width: 0.775rem;
+  height: 0.25rem;
+}
+.cartList .cartListItem .shopList li .shopInfo .shopPrice .shopSelect .minus {
+  float: left;
+  width: 0.225rem;
+  height: 0.25rem;
+  border: 0;
+}
+.cartList .cartListItem .shopList li .shopInfo .shopPrice .shopSelect input {
+  float: left;
+  width: 0.325rem;
+  height: 0.25rem;
+  text-align: center;
+  border: 0;
+}
+.cartList .cartListItem .shopList li .shopInfo .shopPrice .shopSelect .add {
+  float: left;
+  width: 0.225rem;
+  height: 0.25rem;
+  border: 0;
+}
+.cartList div.sum {
+  width: 100%;
+  height: 0.5rem;
+  background: #fff;
+  padding-left: 0.1rem;
+  position: fixed;
+  bottom: 0.5rem;
+  left: 0;
+  /*  // 结算按钮 */
+}
+.cartList div.sum input {
+  height: 100%;
+  float: left;
+}
+.cartList div.sum .checkPrice {
+  float: left;
+  width: 1.48rem;
+  height: 0.41rem;
+  line-height: 0.41rem;
+  padding: 0.08rem 0;
+  margin-left: 0.1rem;
+  /* // 合计 */
+  /* // 不含运费 */
+}
+.cartList div.sum .checkPrice .totalPrice {
+  float: left;
+  width: 0.869rem;
+  height: 0.36rem;
+  line-height: 0.36rem;
+  font-size: 0.16rem;
+  color: #f96d16;
+}
+.cartList div.sum .checkPrice .totalPrice .allsum {
+  font-size: 0.13rem;
+  color: #333;
+}
+.cartList div.sum .checkPrice .fee {
+  float: left;
+  width: 0.61rem;
+  font-size: 0.13rem;
+  color: #999;
+}
+.cartList div.sum .btnCheck {
+  width: 1.15rem;
+  height: 0.49rem;
+  background: #f96d16;
+  float: right;
+  line-height: 0.49rem;
+  font-size: 0.18rem;
+  color: #fff;
+  text-align: center;
+}
+.cartList div.sum .btnNoCheck {
+  width: 1.15rem;
+  height: 0.49rem;
+  background: #999999;
+  float: right;
+  line-height: 0.49rem;
+  font-size: 0.18rem;
+  color: #fff;
+  text-align: center;
+}

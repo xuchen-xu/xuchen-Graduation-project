@@ -1,0 +1,233 @@
+.market-header {
+  position: relative;
+  z-index: 2;
+  box-shadow: 0 1px 2px #f9f9f9;
+  /* background-color: yellow; */
+}
+
+.header-inner {
+  /* zoom: 1; */
+  width: 1100px;
+  height: 100px;
+  /* margin-left: auto;
+      margin-right: auto; */
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+  /* background-color: red; */
+}
+
+.dingdanlogo {
+  float: left;
+  font-size: 28px;
+
+  line-height: 100px;
+}
+
+.adingdan {
+  /* color: #ababac; */
+  color: #44883e;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.market-user {
+  float: right;
+  line-height: 100px;
+  margin-left: 20px;
+}
+
+.user-people {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.user-pic {
+  color: #9a9a9a;
+  font-size: 14px;
+}
+
+.imgdingdan {
+  display: inline-block;
+  vertical-align: middle;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  margin-right: 4px;
+}
+
+.spandingdan {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.user-cart {
+  display: inline-block;
+  /* margin-left: 14px; */
+  margin-left: 10px;
+  color: #9a9a9a;
+}
+.fa {
+  font-size: 20px;
+}
+
+.deal-body {
+  width: 1100px;
+  margin: 0 auto;
+  /* background-color: red; */
+  margin-bottom: 130px;
+  /* height: 200px; */
+}
+
+.hd {
+  color: #3e3a39;
+  font-size: 21px;
+  font-weight: 700;
+  margin: 40px 0 30px;
+}
+
+/* ----------------- */
+.pay-content .title {
+  font-size: 14px;
+  color: #3e3a39;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.pay-info {
+  font-size: 14px;
+  color: #3e3a39;
+}
+
+.pay-info span {
+  margin-right: 20px;
+}
+
+.pay-info em {
+  font-weight: 700;
+  /* color: #3e3a39; */
+}
+
+.real_amount {
+  color: #dd1944;
+}
+
+.pay-box {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.alipay-box {
+  display: inline-block;
+}
+
+.aliImg {
+  display: inline-block;
+  margin: 0 109px 43px;
+}
+
+.imgrongqi {
+  width: 150px;
+  height: 150px;
+}
+
+.pay-describe {
+  font-size: 14px;
+  color: #3e3a39;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.pay-title {
+  line-height: 14px;
+  font-weight: 600;
+  margin-bottom: 17px;
+  font-size: 14px;
+  color: #3e3a39;
+  text-align: center;
+}
+
+.divide-line {
+  display: inline-block;
+  width: 1px;
+  height: 200px;
+  background-color: #6e6e6e;
+  vertical-align: top;
+}
+
+.wechat-box {
+  display: inline-block;
+}
+
+#footer {
+  width: 100%;
+  background-color: #f9f9f9;
+  /* background-color: white; */
+  border-top: 1px solid #f9f9f9;
+  padding-top: 50px;
+  /* padding-bottom: 45px; */
+  padding-bottom: 50px;
+  margin-top: 60px;
+  color: #ababac;
+}
+
+.footer-wrapper {
+  /* zoom: 1; */
+  width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #ababac;
+  text-align: center;
+  width: 1100px;
+  height: 99px;
+}
+
+.footer-left {
+  float: left;
+}
+
+#footer .logo {
+  font-size: 26px;
+  line-height: 1em;
+  margin-bottom: 10px;
+  text-align: left;
+  display: block;
+  /* vertical-align: top; */
+  color: #ababac;
+}
+
+#footer .info {
+  font-size: 12px;
+  line-height: 21px;
+  text-align: left;
+  display: block;
+  /* vertical-align: top; */
+  color: #ababac;
+}
+a {
+  color: #ababac;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.footer-right {
+    float: right;
+}
+
+.footer-kits {
+    font-size: 14px;
+    margin-bottom: 30px;
+    margin-top: 5px;
+}
+
+.footer-kits .item {
+    color: #ababac;
+    margin-left: 60px;
+    text-align: right;
+}
+
+.item span {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 18px;
+}

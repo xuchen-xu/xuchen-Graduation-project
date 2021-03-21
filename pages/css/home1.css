@@ -1,0 +1,500 @@
+ul,
+p,
+img,
+h3 {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  background-color: transparent;
+  text-decoration: none;
+}
+.pullLeft {
+  float: left !important;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.leftPart {
+  padding-right: 20px;
+  margin-right: 50px;
+}
+.PC {
+  display: block;
+  color: #333;
+  font-weight: 500;
+}
+.header_line {
+  position: relative;
+  display: block;
+  top: -10px;
+}
+.lunbobox {
+  width: 100%;
+  background-color: white;
+  position: relative;
+}
+.lunbo {
+  margin: 0 auto;
+  /* left: -100px; */
+  width: 1000px;
+  height: 270px;
+}
+
+.bottomColor {
+  width: 100%;
+  /* background-color: #f7f7f6; */
+  background-color: white;
+}
+
+.store-box {
+  position: relative;
+  width: 100%;
+  margin-top: 20px;
+  /* padding-bottom: 70px; */
+  /* height: 1850px; */
+  /* height: 1900px; */
+  height: 2000px;
+  background-color: white;
+}
+.bodycenter {
+  margin: 0 auto;
+  /* background-color: yellow; */
+  width: 1000px;
+  /* height: 100%; */
+  /* height: 1900px; */
+  height: 1920px;
+  /* margin-bottom: 20px; */
+  border-bottom: 1px solid #ccc;
+  background-color: white;
+  /* border-bottom: 1px solid black; */
+}
+
+.table-right {
+  width: 820px;
+  border-left: 1px solid #e5e5e5;
+  float: right;
+  /* height: 1850px; */
+  /* height: 1900px; */
+  height: 1910px;
+}
+.content-right {
+  float: right;
+  width: 790px;
+  margin-left: 30px;
+}
+.m_b50 {
+  margin-bottom: 50px !important;
+  height: 577px;
+}
+
+.booklist_tit {
+  border-bottom: 1px solid #ccc;
+  line-height: 48px;
+  height: 48px;
+  /* position: relative; */
+}
+.pull-left {
+  float: left !important;
+  margin: 0;
+  padding: 0;
+  font-size: 22px;
+  color: #333;
+  font-weight: bolder;
+}
+
+.more_list {
+  line-height: 18px;
+  margin-top: 18px;
+}
+
+.pull-right {
+  float: right !important;
+  /* padding-bottom: 5px; */
+  /* line-height: 0px; */
+}
+
+.now {
+  color: #8c222c;
+  position: relative;
+  /* margin-left: 23px; */
+  font-size: 13px;
+  text-decoration: none;
+  /* height: 20px; */
+}
+
+.now1{
+  color: #8c222c;
+  position: relative;
+  margin-left: 23px;
+  font-size: 13px;
+  text-decoration: none;
+  height: 20px;
+}
+
+.main-menu {
+  color: #8c222c;
+  position: relative;
+  margin-left: 23px;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.book_list {
+  width: 790px;
+  overflow: hidden;
+}
+.m_t25 {
+  /* margin-top: 25px; */
+  padding-top: 25px;
+}
+.litesthome {
+  line-height: 20px;
+  word-break: break-all;
+  position: relative;
+  float: left;
+  width: 130px;
+  height: 218px;
+  /* height: 199px; */
+  margin-right: 35px;
+  margin-bottom: 37px;
+  line-height: 20px;
+  word-break: break-all;
+  /* background-color: red; */
+}
+.pic a img {
+  display: inline-block;
+  max-width: 100%;
+  max-height: 100%;
+  vertical-align: middle;
+}
+
+.pic a {
+  display: block;
+  width: 128px;
+  height: 128px;
+  line-height: 124px;
+  border: 1px solid #e5e5e5;
+  text-align: center;
+}
+
+.book_name {
+  font-size: 12px;
+  max-height: 40px;
+  line-height: 20px;
+  overflow: hidden;
+  margin-top: 5px;
+}
+.book_name a {
+  color: #333;
+}
+.shop_name {
+  height: 20px;
+  color: #8999a9;
+  overflow: hidden;
+  font-size: 12px;
+  cursor: pointer;
+  line-height: 20px;
+}
+
+.shop_name a {
+  color: #8999a9;
+  word-break: break-all;
+}
+.bookjuti_price {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  color: #bf7f5f;
+  font-size: 16px;
+  margin-top: 5px;
+  height: 20px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.bookjuti_pricechao {
+  position: absolute;
+  left: 0;
+  bottom: 15px;
+  color: #bf7f5f;
+  font-size: 16px;
+  margin-top: 5px;
+  height: 20px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.bookjuti_price span {
+  float: left;
+  width: 12px;
+  font-size: 14px;
+  color: #bf7f5f;
+}
+
+.booklist_tit_big {
+  border-bottom: 1px solid #ccc;
+  line-height: 48px;
+  height: 48px;
+}
+
+.m_r10 {
+  font-size: 22px;
+  margin-right: 10px;
+}
+
+.book_list ul {
+  margin-right: -42px;
+  height: 480px;
+  overflow: hidden;
+}
+
+.tit_info {
+  color: #666;
+  vertical-align: bottom;
+  line-height: 20px;
+  margin-top: 17px;
+  font-size: 14px;
+}
+
+.line_xie {
+  font-family: "Microsoft YaHei";
+  font-size: 14px;
+  font-style: normal;
+  color: #999;
+  font-weight: 400;
+}
+
+.m_r10 {
+  margin-right: 10px;
+}
+
+.tiaozheng {
+  margin-bottom: 10px !important;
+  height: 577px;
+}
+
+.no-more-box {
+  /* background-color: red; */
+  width: 100%;
+  height: 20px;
+  /* padding: 16px 0 78px; */
+  line-height: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: #999;
+  background-color: white;
+  /* position: absolute; */
+  /* top:10px; */
+  /* border-bottom: 1px solid #ccc; */
+  /* bor */
+}
+/* ------------------body主体的左边部分------------------------- */
+
+.content-left {
+  width: 180px;
+  height: 100%;
+  padding-bottom: 50px;
+  float: right;
+  /* background-color: red; */
+}
+
+.shopLeftbar {
+  width: 180px;
+  height: 100%;
+  /* background-color: red; */
+}
+.border_box {
+  /* background-color: red; */
+  height: 100%;
+}
+
+.allinfo_box {
+  padding: 10px;
+}
+
+.gray6 {
+  color: #666 !important;
+}
+
+.iconfont {
+  position: relative;
+  top: 1px;
+  color: #666;
+}
+.m_r15 {
+  margin-right: 15px;
+}
+
+.m_t5 {
+  margin-top: 5px;
+}
+
+/* ------------------------第二列-------- */
+
+.m_t34 {
+  margin-top: 34px;
+  /* margin-top: 50px; */
+}
+
+.m_t34 h3 {
+  font-size: 18px;
+  line-height: 36px;
+  height: 40px;
+  overflow: hidden;
+  padding-left: 10px;
+  border-bottom: 1px solid #e5e5e5;
+  font-weight: bolder;
+}
+
+.shopLeftbar h3 a {
+  font-size: 12px;
+  font-weight: 400;
+}
+.change_title_box {
+  border-bottom: 1px solid #e5e5e5;
+  line-height: 30px;
+}
+
+.change_title_box a.now {
+  font-weight: 700;
+}
+.change_title_box a {
+  display: block;
+  float: left;
+  width: 23.3333%;
+  text-align: center;
+  color: #333;
+  position: relative;
+}
+
+.m_t10 {
+  margin-top: 10px;
+}
+
+.change_text li {
+  font-size: 12px;
+  line-height: 20px;
+  height: 20px;
+  overflow: hidden;
+  margin-bottom: 5px;
+  padding-right: 10px;
+}
+
+.change_text .w_num {
+  width: 23px;
+  text-align: right;
+  margin-right: 8px;
+  font-size: 14px;
+}
+
+.shopLeftbar .c_red {
+  color: #8c222c;
+}
+.bold {
+  font-weight: 700;
+}
+.text_box a {
+  color: #333;
+}
+
+.text_box a:hover {
+  color: #8c222c;
+}
+
+.m_t50 {
+  margin-top: 50px;
+}
+
+.lm_box h3 {
+  font-weight: bolder;
+}
+
+.list li {
+  border-bottom: 1px solid #e5e5e5;
+  line-height: 32px;
+}
+
+.list li a {
+  display: block;
+  padding: 0 26px 0 10px;
+  color: #333;
+  font-size: 12px;
+}
+.list li a span {
+  color: #999;
+}
+/* ------------------------------------------------- */
+.footer-box {
+  position: relative;
+  z-index: 10;
+  width: 100%;
+  height: 50px;
+  /* margin-top: -50px; */
+  margin-top: -64px;
+  color: #999;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.footer-wrap {
+  width: 1000px;
+  height: 50px;
+  margin: 0 auto;
+  /* padding: 10px 0 20px; */
+  /* border-top: 1px solid #e5e5e5; */
+}
+
+.copyright-info-box {
+  float: left;
+  width: 300px;
+  height: 20px;
+  line-height: 20px;
+  font-size: 12px;
+}
+
+.link-box {
+  height: 20px;
+  line-height: 20px;
+  font-size: 12px;
+  text-align: right;
+}
+
+.link-box .item {
+  margin-left: 13px;
+  color: #8999a9;
+}
+.pic {
+  overflow: hidden;
+}
+.book_list img {
+  width: 100%;
+  max-width: 100%;
+
+  height: auto;
+  /* height: 30px; */
+  /* width: 30px; */
+  vertical-align: bottom;
+  text-decoration: none;
+  transition: transform 1s ease 0s;
+}
+
+.book_list img:hover {
+  transform: scale(1.2);
+}
+
+.lm_box h3 {
+  font-size: 18px;
+}
+
+.ant-tabs-nav .ant-tabs-tab{
+  padding:4px 0px;
+}
+
+a:hover{
+  color: red;
+}

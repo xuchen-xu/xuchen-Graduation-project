@@ -1,0 +1,143 @@
+.container{
+    margin: auto;
+    width: 1500px;
+    font-family: 华文楷体;
+    height: 600px;
+}
+.clear:after{
+    clear:both;
+    display: block;
+    content: "";
+}
+.tbl{
+    /*width: 1024px;*/
+    height: 60px;
+    background-color: #EDF4ED;
+}
+.tbl>div{
+    width:142px;
+    height: 28px;
+    position: relative;
+    top:16px;
+    left: 100px;
+    /* background-image: url(../../static/images/image/b.jpg); */
+    background-size: cover;
+}
+
+.denglubox{
+  height: 600px;
+  margin:0 auto;
+}
+/*手机层*/
+.ph{
+    float: left;
+    width:800px;
+    height: 584px;
+    margin-left: -50px;
+    margin-top: 50px;
+    background-image: url(../../static/images/image/shouji.jpg);
+    background-size: cover;
+}
+.o{
+    width: 170px;
+    height: 360px;
+    margin-left: 430px;
+    margin-top: 50px;
+    background-image: url(../../static/images/image/13.jpg);
+    background-size: cover;
+}
+.m{
+    float: left;
+    margin-left: 50px;
+    margin-top: 100px;
+    width:400px;
+    height: 500px;
+    border: 1px #D8D8D8 solid;
+}
+.m>div:first-child{
+    margin-top: 50px;
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+}
+/*二维码*/
+.m>div:nth-child(3){
+    width: 100px;
+    height: 100px;
+    background-image: url(../../static/images/image/jietu.jpg);
+    background-size: cover;
+    position: relative;
+    top:-345px;
+    left: 295px;
+}
+.tx{
+    /*margin-top: -100px;*/
+    position: relative;
+    top:-75px;
+    text-align: center;
+    font-size: 20px;
+    color: #95ADB9;
+}
+.wx{
+    /*margin-top: 100px;*/
+    margin-top: -50px;
+    margin-left: 90px;
+    background-size: cover;
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
+    background-image: url(../../static/images/image/weixin.jpg);
+}
+.xl{
+    float: left;
+    margin-top: -38px;
+    margin-left: 260px;
+    background-size: cover;
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
+    background-image: url(../../static/images/image/xinlang.jpg);
+}
+.loginBox{
+    /*margin-top: 20px;*/
+    position: relative;
+    left: 50px;
+}
+.loginBox>input{
+    width: 300px;
+    height: 50px;
+    /*margin-left: 30px;*/
+    margin-top: 30px;
+    border: 1px #95ADB9 solid;
+    background-color:rgba(255,255,255,0.5);
+
+}
+.loginBox>input:last-child{
+    font-family: 华文楷体;
+    font-size: 20px;
+    background-color: #41AC52;
+}
+.sew>div:first-child{
+    float: left;
+    width: 37px;
+    height: 37px;
+    margin-top: 600px;
+    margin-left: -800px;
+    background-size: cover;
+    background-image: url(../../static/images/image/ewm.jpg);
+}
+.sew>div:first-child:hover{
+    width:100px ;
+    height: 100px;
+    cursor: pointer;
+    background-image: url(../../static/images/image/erweima.jpg);
+    background-size: cover;
+}
+.sew>div:last-child{
+    float: left;
+    width: 150px;
+    font-size: 18px;
+    margin-top: 605px;
+    margin-left: -950px;
+    text-align: center;
+}

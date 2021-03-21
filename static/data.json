@@ -1,0 +1,26 @@
+{
+  "imgArray": [
+    "../static/lunbo/lun0.jpg",
+    "../static/lunbo/lun0.jpg",
+    "../static/lunbo/lun0.jpg",
+    "../static/lunbo/lun0.jpg",
+    "../static/lunbo/lun0.jpg"
+  ],
+  "linkArray": [
+    "http://bj.ganji.com",
+    "http://bj.ganji.com",
+    "http://bj.ganji.com",
+    "http://bj.ganji.com",
+    "http://bj.ganji.com",
+    "http://bj.ganji.com",
+    "http://bj.ganji.com"
+  ],
+  "lunboObject": {
+    "interval": 1000,
+    "direction": "right",
+    "number": 7,
+    "boxStyle": "content",
+    "imgWidth": 550,
+    "imgHeight": 350
+  }
+}

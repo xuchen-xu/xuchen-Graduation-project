@@ -1,0 +1,515 @@
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+button,
+textarea,
+blockquote {
+  margin: 0;
+  padding: 0;
+}
+#db-global-nav {
+  height: 28px;
+  color: #d5d5d5;
+  background-color: #545652;
+  border-bottom: solid 1px #ddd;
+  min-width: 950px;
+  /* font: 12px Helvetica, Arial, sans-serif; */
+  line-height: 1.62;
+  font-size: 12px;
+}
+#db-global-nav .top-nav-info {
+  float: right;
+  margin: 0 12px 0 0;
+  line-height: 28px;
+}
+#db-global-nav a {
+  color: #d5d5d5;
+}
+.top-nav-info a {
+  display: inline-block;
+  /* *display: inline; */
+  zoom: 1;
+  margin: 0;
+  padding: 0 12px;
+  height: 28px;
+  color: #d5d5d5;
+  cursor: pointer;
+}
+
+#db-global-nav .top-nav-doubanapp {
+  position: relative;
+  float: right;
+  margin-right: 5px;
+  line-height: 28px;
+}
+
+.top-nav-doubanapp .lnk-doubanapp {
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  padding: 0 8px;
+  height: 28px;
+}
+#db-global-nav .global-nav-items {
+  font-size: 0;
+}
+
+#db-global-nav ul {
+  margin: 0;
+  padding: 0;
+}
+#db-global-nav .global-nav-items li {
+  display: inline-block;
+  zoom: 1;
+  line-height: 28px;
+  font-size: 12px;
+  vertical-align: baseline;
+}
+#db-global-nav .global-nav-items a {
+  display: inline-block;
+  padding: 0 12px;
+  height: 28px;
+}
+.bookdetail-ershou {
+  width: 100%;
+  height: 80px;
+  background-color: #f6f6f1;
+  position: relative;
+}
+.bookdetailbox {
+  margin: 0 auto;
+  height: 100%;
+  width: 1040px;
+  /* background-color: red; */
+}
+.detailbook {
+  height: 100%;
+  /* width: 100%; */
+  font-family: "华文楷体";
+  width: 1020px;
+  margin: 0 auto;
+  line-height: 80px;
+  font-size: 38px;
+  color: rgb(88, 64, 42);
+}
+/* -------------------------------主体部分开始------------------------------------------------- */
+.detailbox-jiuwang {
+  width: 100%;
+  height: 1750px;
+  /* height: 2000px; */
+  position: relative;
+  padding-top: 40px;
+  background-color: white;
+}
+#wrapper {
+  color: #111;
+  width: 1040px;
+  margin: 0 auto;
+  height: 100%;
+  /* background-color: red; */
+}
+
+#wrapper h1 {
+  font-size: 26px;
+  word-wrap: break-word;
+  display: block;
+  font-weight: bold;
+  color: #494949;
+  margin: 0;
+  padding: 0 0 15px 0;
+  line-height: 1.1;
+}
+#wrapper .clear {
+  clear: both;
+  line-height: 0;
+  font-size: 0;
+}
+/*--------------------- content部分开始 */
+#content {
+  margin: 0 auto;
+  width: 1040px;
+  /* height: 100%; */
+  /* background-color: red; */
+}
+.grid-16-8 {
+  width: 100%;
+  height: 100%;
+}
+
+.grid-16-8 .article {
+  width: 675px;
+  float: left;
+  /* width: 590px; */
+  padding-right: 40px;
+  /* background-color: sienna; */
+}
+
+.indent {
+  word-break: normal;
+  word-wrap: break-word;
+  /* height: 100%; */
+  height: 291.5px;
+  width: 100%;
+}
+
+.subjectwrap {
+  position: none;
+  float: none;
+  width: auto;
+  position: relative;
+  /* background-color: green; */
+  /* margin-bottom: 15px; */
+}
+
+.subjectwrap .subject {
+  width: 500px;
+  height: 207px;
+  float: left;
+}
+
+#mainpic {
+  /* margin: 3px 0 0 0; */
+  float: left;
+  text-align: center;
+  margin: 3px 12px 0 0;
+  max-width: 155px;
+  overflow: hidden;
+}
+
+a img {
+  border-width: 0;
+  vertical-align: middle;
+}
+
+.mainpicimg {
+  max-width: 135px;
+  max-height: 200px;
+  margin-bottom: 10px;
+}
+
+#info {
+  max-width: 333px;
+  float: left;
+  word-wrap: break-word;
+}
+#info .pl {
+  font-size: 13px;
+  font: 12px Arial, Helvetica, sans-serif;
+  line-height: 150%;
+  color: #666666;
+}
+
+#interest_sectl {
+  float: left;
+  width: 155px;
+  margin: 2px 0 0 0;
+  padding: 0 0 0 15px;
+  border-left: 1px solid #eaeaea;
+  color: #9b9b9b;
+}
+
+#interest_sectl .rating_wrap {
+  padding-bottom: 15px;
+  font-size: 12px;
+  line-height: 14px;
+  position: absolute;
+  top: 0;
+  right: 10px;
+  width: 160px;
+}
+
+.rating_logo {
+  font-size: 14px;
+  color: #666666;
+}
+
+.rating_wrap .rating_logo {
+  line-height: 1;
+}
+
+.rating_self {
+  height: 30px;
+}
+.novelgrade {
+  font-size: 28px;
+  color: #494949;
+  margin-right: 5px;
+}
+
+#interest_sect_level {
+  clear: both;
+  padding: 20px 0 3px;
+  /* background-color: red; */
+}
+
+.a_show_login {
+  height: 22px;
+  width: 44px;
+  /* display: block; */
+  display: inline-block;
+  /* float: left; */
+  margin-right: 20px;
+}
+
+a.colbutt:visited {
+  color: #777;
+  /* text-decoration: none; */
+}
+
+a.colbutt span {
+  background: transparent url(../../static/images/pink.png) no-repeat;
+  display: block;
+  padding: 1px 1px 3px 11px;
+  line-height: 22px;
+  height: 22px;
+  /* width: 32px; */
+  width: 54px;
+}
+
+a.colbutt .minisubmit {
+  letter-spacing: 3px;
+  color: inherit;
+  outline: none;
+  vertical-align: inherit;
+  padding: 0;
+  margin: 0;
+  /* color: #37a; */
+  background: none;
+  cursor: pointer;
+  border: none;
+}
+
+.gtleft {
+  padding: 4px 4px 0 0;
+  float: left;
+}
+
+.pt6 {
+  padding-top: 6px;
+}
+
+.color_gray,
+.color-gray {
+  color: #666;
+}
+.ul_subject_menu {
+  margin-left: -15px;
+}
+
+.ul_subject_menu li {
+  float: left;
+  display: inline;
+  line-height: 14px;
+  margin-left: 15px;
+}
+.ul_subject_menu .article img {
+  max-width: 100%;
+  line-height: 14px;
+}
+
+.shoppingnewbook {
+  width: 70px;
+}
+
+/* ----------------内容简介部分----------- */
+.related_info {
+  /* position: relative; */
+  margin-bottom: 24px;
+}
+.h231 {
+  margin-top: 24px;
+  margin-bottom: 3px;
+  font-size: 16px;
+  color: #007722;
+  font: 15px Arial, Helvetica, sans-serif;
+  margin: 0 0 12px 0;
+  /* line-height: 150%; */
+}
+
+.related_info .indent2 {
+  word-break: normal;
+  word-wrap: break-word;
+  /* height: 0px; */
+}
+.intro {
+  /* background-color: red; */
+}
+/* ---------------------作者简介部分---------- */
+.h233 {
+  margin-top: 24px;
+  /* margin: 50px; */
+  margin-bottom: 3px;
+  font-size: 16px;
+  color: #007722;
+  font: 15px Arial, Helvetica, sans-serif;
+  color: #072;
+  /* margin: 0 0 12px 0; */
+  line-height: 150%;
+  display: block;
+}
+/* --------------原文摘要---------------- */
+.blockquote-list figure {
+  position: relative;
+  display: block;
+  margin: 0 0 20px 0;
+  padding: 10px 10px 10px 40px;
+  font-size: 13px;
+  color: #191919;
+}
+.tubiao-newbook {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 10px;
+  width: 24px;
+  height: 20px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  vertical-align: middle;
+  background-image: url(../../static/images/douhao.jpg);
+}
+/* 喜欢推荐 */
+.sahalao-content {
+  width: 700px;
+  margin-right: -22.5px;
+}
+.dl1 {
+  width: 115px;
+  margin-right: 25px;
+  /* margin: 15px 33px 15px 0; */
+  margin: 15px 33px 26px 0;
+  overflow: hidden;
+  text-align: center;
+  float: left;
+}
+.sahalao-content dl dt {
+  height: 172px;
+  width: 115px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.sahalao-content dl dt a {
+  /* width: 85px; */
+  text-align: center;
+  color: #3377aa;
+}
+
+.sahalao-content img {
+  max-width: 100%;
+  height: 100%;
+  border-width: 0;
+  vertical-align: middle;
+}
+
+.sahalao-content dl dd {
+  margin: 0;
+  padding-top: 3px;
+  overflow: hidden;
+  color: #3377aa;
+  /* font-size: 13px; */
+  font-size: 14px;
+}
+.dl2 {
+  width: 115px;
+  margin-right: 25px;
+  margin: 15px 26px 15px 0;
+  overflow: hidden;
+  text-align: center;
+  float: left;
+}
+.dltest {
+  width: 115px;
+  margin-right: 25px;
+  margin: 15px 0px 15px 0;
+  overflow: hidden;
+  text-align: center;
+  float: left;
+}
+/* 评论开始了 */
+.nav-tab-new {
+  margin-top: 12px;
+}
+
+.tabs-wrapper.line {
+  padding-bottom: 15px;
+  position: relative;
+  border: 0;
+}
+.nav-tab .on-tab {
+  cursor: text;
+  color: #111;
+}
+
+.comment-list {
+  padding-top: 0;
+}
+
+.comment-item {
+  padding: 14px 0;
+  position: relative;
+  margin: 0;
+  /* padding: 20px 0 25px; */
+  overflow: hidden;
+  font-size: 13px;
+  word-break: break-word;
+  font-size: 13px;
+  /* border-top: 1px solid #eaeaea; */
+  border-top: 1px solid gray;
+  width: 713px;
+  /* width: 675px; */
+}
+
+.comment-item .comment {
+  overflow: hidden;
+  line-height: 1.5;
+  color: #494949;
+  /* *zoom: 1; */
+  word-wrap: break-word;
+}
+
+.comment-item h3 {
+  margin-bottom: 0px;
+  background: none;
+  font-size: 13px;
+  height: auto;
+  margin: 0;
+  /* margin-bottom: 0px; */
+  padding: 0;
+  color: #494949;
+  line-height: 1.7em;
+  font-weight: normal;
+}
+.allstar50 {
+  background-position: 0 0px;
+}
+
+.comment-item .comment p {
+  margin: 0;
+  color: #666;
+}
+/* -------------------------------主体部分开始------------------------------------------------- */

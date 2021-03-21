@@ -1,0 +1,198 @@
+.aside {
+  position: static;
+  inset: auto auto 200px 791.667px;
+  width: 300px;
+  float: right;
+  /* top:0; */
+  /* background-color: red; */
+  height: 1000px;
+}
+.asidebox {
+  position: relative;
+  margin: 0px 0px 20px;
+  display: block;
+  overflow: hidden;
+  background-color: red;
+  width: 300px;
+  height: 256.367px;
+}
+
+#dale_book_subject_top_right_frame {
+}
+
+.guge {
+  line-height: 1;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.3);
+  font-size: 12px;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  padding: 4px;
+  color: rgb(255, 255, 255);
+}
+
+.gray_ad {
+  padding: 18px 16px;
+  background: #f6f6f2;
+  margin-bottom: 20px;
+  word-wrap: break-word;
+}
+
+.buyinfo-printed {
+  margin-bottom: 15px;
+}
+
+.gray_ad h2 {
+  margin-bottom: 10px;
+  font-size: 15px;
+  color: #0B7C2A;
+  font: 15px Arial, Helvetica, sans-serif;
+  margin: 0 0 12px 0;
+  line-height: 150%;
+}
+.buyinfo .current-version-list {
+  margin-bottom: 27px;
+  margin: 0;
+  list-style: none;
+}
+
+.buyinfo li {
+  display: flex;
+  flex-direction: column;
+  padding: 12px 0;
+  position: relative;
+  line-height: 1;
+  border-bottom: 1px solid rgba(0,0,0,0.08);
+  overflow: hidden;
+  margin: 0;
+}
+
+.buyinfo li .price-btn-wrapper {
+  display: flex;
+}
+
+.buyinfo li .cell {
+  flex: 1;
+}
+
+.vendor-name {
+  flex: 0 0 33%;
+  align-self: normal;
+  line-height: 20px;
+}
+
+.buyinfo li .cell:first-child a {
+  line-height: 20px;
+  text-decoration: none;
+  color: #3377aa;
+}
+
+.buyinfo li .price-btn-wrapper > .cell:last-child {
+  margin-bottom: 0;
+}
+
+
+
+.buyinfo li .price-btn-wrapper > .cell {
+  display: flex;
+  /* margin-bottom: 5px; */
+}
+
+.buyinfo li .price-btn-wrapper {
+  display: flex;
+}
+
+.buyinfo li .cell {
+  flex: 1;
+}
+
+.buyinfo li .cell:first-child a {
+  line-height: 20px;
+  text-decoration: none;
+  color: #3377aa;
+}
+
+.buyinfo li .buylink-price {
+  line-height: 20px;
+}
+
+.buyinfo li .price-btn-wrapper > .cell .cell:last-child {
+  padding-right: 1px;
+  width: 70px;
+  flex: initial;
+  text-align: right;
+}
+
+.buyinfo li .cell:first-child a {
+  line-height: 20px;
+}
+
+.paper-book-btn {
+  
+}
+
+.buyinfo li .buy-book-btn {
+  display: inline-block;
+  height: 20px;
+  line-height: 20px;
+  width: 70px;
+  text-align: center;
+  background: #fff;
+  /* color: #EB9108; */
+  border-radius: 3px;
+  font-size: 12px;
+  box-shadow: 0 0 1px 0 rgba(0,0,0,0.07);
+}
+
+.add2cartContainer {
+  overflow: hidden;
+  vertical-align: bottom;
+  line-height: 1;
+  padding: 10px 0;
+  width: 268px;
+}
+
+.add2cartContainer .add2cart {
+  margin-right: 0;
+  display: inline-block;
+  text-decoration: none;
+  color: #3377aa;
+  width: 268px;
+}
+
+.gray_ad {
+  padding: 18px 16px;
+  background: #F6F6F2;
+  margin-bottom: 20px;
+word-wrap: break-word;
+}
+
+.version_works li.mb8 {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 10px;
+  margin-bottom: 8px;
+}
+
+.pl {
+  font: 12px Arial, Helvetica, sans-serif;
+  line-height: 150%;
+  color: #666666;
+  font-size: 13px;
+}
+
+.version_works .meta-wrapper {
+  justify-content: space-between;
+  display: flex;
+}
+.version_works .meta-wrapper .count span {
+  padding-right: 10px;
+}
+
+#borrowinfo li{
+  margin-bottom: 10px;
+}
+/* .cell{
+  width: 108.567px;
+} */

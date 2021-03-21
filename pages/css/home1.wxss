@@ -1,0 +1,242 @@
+.eheader {
+  width: 100%;
+  height: 36px;
+  background: slategray;
+  border-bottom: solid 1px #ddd;
+}
+.eheader .ehcenter {
+  position: relative;
+  width: 1000px;
+  height: 100%;
+  margin: 0 auto;
+}
+.eheader .ehcenter .sloganBox {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-left: 6px;
+  height: 36px;
+  line-height: 36px;
+  font-size: 12px;
+  color: #fff;
+}
+.eheader .ehcenter .sloganBox .text {
+  margin-right: 4px;
+}
+.eheader .ehcenter .userinfoBox {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 36px;
+  font-size: 0;
+  line-height: 36px;
+}
+.eheader .ehcenter .userinfoBox .itemInfo {
+  float: left;
+  position: relative;
+  height: 36px;
+}
+.eheader .ehcenter .userinfoBox .itemInfo .infoNormal {
+  padding: 0 15px;
+}
+.eheader .ehcenter .userinfoBox .itemInfo .infoNormal .infoText {
+  font-size: 12px;
+  color: #fff;
+  cursor: default;
+}
+.eheader .ehcenter .userinfoBox .itemInfo .infoLink {
+  display: block;
+  padding: 0 8px;
+}
+.eheader .ehcenter .userinfoBox .itemInfo .infoLink .infoText {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 12px;
+  color: #fff;
+  cursor: pointer;
+}
+.eheader .ehcenter .userinfoBox .itemInfo .infoNormal2 {
+  display: block;
+  padding: 0 8px;
+  line-height: 36px;
+}
+.eheader .ehcenter .userinfoBox .itemInfo .infoNormal3 {
+  display: block;
+  padding: 0 15px;
+  line-height: 36px;
+}
+.eheader .ehcenter .userinfoBox .itemInfo .lineTest {
+  right: 1px;
+  color: white;
+  position: absolute;
+  top: 0;
+  width: 1px;
+  height: 36px;
+  line-height: 36px;
+  font-size: 12px;
+}
+.eheader .tubiao {
+  margin-right: 3px;
+}
+.headersearchBox {
+  background-color: #f2f1ea;
+}
+.headersearchBox .headerSearch {
+  position: relative;
+  width: 1000px;
+  height: 86px;
+  margin: 0 auto;
+  padding-top: 31px;
+}
+.headersearchBox .headerSearch .logoText {
+  height: 100px;
+  line-height: 85px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  float: left;
+  display: block;
+  width: 232px;
+  padding-left: 0;
+  overflow: hidden;
+  font-size: 40px;
+  color: black;
+}
+.headersearchBox .headerSearch .searchBox {
+  height: 40px;
+  float: right;
+  width: 688px;
+  margin-right: 0;
+}
+.headersearchBox .headerSearch .searchBox .searchCon {
+  height: 40px;
+  position: relative;
+  float: left;
+  right: -63px;
+  width: 588px;
+  border: 2px solid #8c222c;
+}
+.headersearchBox .headerSearch .searchBox .searchCon .searchType {
+  position: absolute;
+  top: -26px;
+  left: -2px;
+  width: 120px;
+  height: 24px;
+  font-size: 12px;
+  color: #333;
+}
+.headersearchBox .headerSearch .searchBox .searchCon .searchType .itemType {
+  color: #8c222c;
+  float: left;
+  height: 24px;
+  line-height: 24px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.headersearchBox .headerSearch .searchBox .searchCon .searchType .indicator {
+  left: 8px;
+  position: absolute;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border: 5px solid transparent;
+  border-bottom: 5px solid #8c222c;
+  transition: left 0.5s;
+}
+.headersearchBox .headerSearch .searchBox .searchCon .searchinputBox {
+  height: 36px;
+  position: relative;
+  float: left;
+  width: 496px;
+  background-color: #fff;
+}
+.headersearchBox .headerSearch .searchBox .searchCon .searchinputBox .searchstatusBox {
+  line-height: 36px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 501;
+  width: 74px;
+  font-size: 12px;
+  cursor: pointer;
+}
+.headersearchBox .headerSearch .searchBox .searchCon .searchinputBox .searchstatusBox .curStatus {
+  text-align: center;
+  border-left: 0.3px solid gray;
+  border-right: 1px solid transparent;
+  background-color: #f5f5f5;
+}
+.headersearchBox .headerSearch .searchBox .searchCon .searchinputBox .searchstatusBox .icontabDown {
+  position: absolute;
+  top: 15px;
+  left: 52px;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 5px solid #999;
+}
+.headersearchBox .headerSearch .searchBox .searchCon .searchinputBox .inputLabel {
+  height: 36px;
+  width: 496px;
+  line-height: 20px;
+  font-size: 14px;
+  color: #333;
+  border: none;
+}
+.headersearchBox .headerSearch .searchBox .searchCon .searchinputBox .searchLabel {
+  position: absolute;
+  top: 5px;
+  left: 10px;
+  line-height: 25px;
+  font-size: 12px;
+  color: #999;
+  cursor: text;
+}
+.headersearchBox .headerSearch .searchBox .searchCon .btn {
+  height: 36px;
+  overflow: hidden;
+  line-height: 36px;
+  background-color: #7b111b;
+  float: left;
+  border: 0;
+  font-size: 16px;
+  color: #fff;
+  border-radius: 0;
+  text-align: center;
+  cursor: pointer;
+  width: 92px;
+  position: absolute;
+  right: 0;
+}
+.headersearchBox .headerSearch .searchBox .searchLink {
+  height: 40px;
+  padding-top: 4px;
+  position: absolute;
+  right: 0;
+  width: 35px;
+  line-height: 16px;
+  text-align: right;
+}
+.headersearchBox .headerSearch .searchBox .searchLink .advsearchBtn {
+  color: #666;
+  font-size: 14px;
+}
+.headersearchBox .headerSearch .searchBox .searchLink a:hover {
+  color: #8c222c;
+}
+.head {
+  height: 58px;
+}
+.head .nav_box {
+  width: 1000px;
+  height: 100%;
+  margin: 0 auto;
+}
+.head .nav_box li {
+  float: left;
+  margin-right: 32px;
+  padding: 0 15px;
+  font-size: 16px;
+  height: 58px;
+  line-height: 58px;
+  list-style: none;
+}
